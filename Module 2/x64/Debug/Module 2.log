@@ -1,0 +1,17 @@
+﻿  animals.cpp
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.cpp(10,26): error C2511: 'Animal::Animal(const std::string &,const std::string &,const std::string &,const std::string &,const float &,const float &,const float &)': overloaded member function not found in 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.h(8): message : see declaration of 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.cpp(12,34): error C2550: 'Animal::{ctor}': constructor initializer lists are only allowed on constructor definitions
+  animal_encyclopedia.cpp
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(39,38): error C2511: 'void Encyclopedia::add_animals_to_file(const std::string &,const std::string &,const std::string &,const std::string &,const float &,const float &,const float &)': overloaded member function not found in 'Encyclopedia'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.h(14): message : see declaration of 'Encyclopedia'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(43,53): error C2248: 'Animal::Animal': cannot access private member declared in class 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.h(13): message : see declaration of 'Animal::Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.h(8): message : see declaration of 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(43,9): warning C4244: 'argument': conversion from 'const float' to 'const int', possible loss of data
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(46,24): error C2677: binary '[': no global operator found which takes type 'const std::string' (or there is no acceptable conversion)
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(94,61): error C2248: 'Animal::Animal': cannot access private member declared in class 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.h(13): message : see declaration of 'Animal::Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animals.h(8): message : see declaration of 'Animal'
+C:\Users\mathk\OneDrive\Documents\BYU-I school work\BYUI Winter 2022 BYUI-I classwork\Applied Programming_CSE310\Module 2\animal_encyclopedia.cpp(94,17): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+  Generating Code...
